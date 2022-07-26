@@ -179,7 +179,7 @@ html {
   background: transparent;
   border: none;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   width: 70%;
 }
 
@@ -456,7 +456,7 @@ p,
 .modal-item {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   height: 60px;
   margin-top: 20px;
 }
