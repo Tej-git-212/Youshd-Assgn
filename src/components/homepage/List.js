@@ -13,6 +13,7 @@ function List({ items, status, onDrop }) {
       isOver: monitor.isOver(),
     }),
   });
+  console.log(isOver);
 
   return (
     <div ref={dropRef}>
