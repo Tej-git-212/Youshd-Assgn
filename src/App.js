@@ -6,7 +6,7 @@ import { AuthContext } from './store/context';
 function App() {
 
   const globalState = useContext(AuthContext);
-  const { state, dispatch } = globalState;
+  const { state } = globalState;
 
 
   return (
