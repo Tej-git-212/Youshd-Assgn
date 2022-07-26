@@ -24,6 +24,7 @@ function Item({ item, index, status, onDrop }) {
       isOver: monitor.isOver(),
     }),
   });
+  console.log(isOver);
 
   const ref = useRef(null);
   const dragDropRef = dragRef(dropRef(ref));
