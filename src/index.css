@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/*********** HEADER STYLES  ***********/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  outline: none;
+  padding: 6px;
+  color: #9a9a9a;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  color: #757373;
+  font-size: 1.2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 30px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+#profile-images {
+  margin-left: 18%;
+}
+
+#profile-images img {
+  width: 5%;
+}
+
+.profile span {
+  width: max-content;
+  padding-right: 20px;
+}
+
+/*********** HOME STYLES  ***********/
+
+.home {
+  display: flex;
+}
+
+/*********** ITEM STYLES  ***********/
+
+.item {
+  text-align: start;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.item-title {
+  font-size: 14px;
+  line-height: 137.1%;
+  font-weight: 600;
+  color: #212121;
+  text-align: start;
+}
+
+.item-decs {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 137.1%;
+}
+
+.item div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.item div img {
+  width: 25.26px;
+  height: 25.26px;
+}
+
+.item-pic {
+  padding-right: 20px;
+  padding-top: 15px;
+  max-width: 11px;
+  max-height: 11px;
+}
+
+/*********** MAIN STYLES  ***********/
+
+.mainpage {
+  padding: 10px 45px;
+  width: 80%;
+  background: #fefefe;
+  border: 1.5px solid #f0f0f0;
+}
+
+/*********** MAIN PAGE CONTENT STYLES  ***********/
+
+.content {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-header p {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.filter_btn {
+  background-color: transparent;
+  height: 40px;
+  border: none;
+}
+
+/*********** SIDEBAR STYLES  ***********/
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.brand {
+  margin-left: 40px;
+  color: black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  margin-top: 12.5%;
+}
+
+.action-list li,
+.nav-list li {
+  margin-bottom: 1.5rem;
+}
+
+.side-btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: start;
+  width: 70%;
+}
+
+.side-btn:hover,
+.side-btn:active {
+  color: black;
+  border-right: 4px solid #329c89;
+}
+
+p,
+.side-btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 101.1%;
+  letter-spacing: 0.05em;
+  color: #9a9a9a;
+}
+
+.nav-icon {
+  margin-right: 15px;
+}
+
+.action-list {
+  margin-top: 15rem;
+}
+
+.p-btn {
+  color: black;
+  border-right: 4px solid #329c89;
+}
+
+/*********** TO DO LIST STYLES  ***********/
+
+.todo_container {
+  width: 318px;
+  height: 100vh;
+  cursor: grab;
+  background: #f5f9f9;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container_header {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 0 20px;
+}
+
+.container_title {
+  color: black;
+}
+
+.count {
+  background-color: #ecf3f3;
+  border-radius: 7px;
+  width: 23px;
+  height: 20px;
+  text-align: center;
+  padding-top: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 101.1%;
+  color: #329c89;
+}
+
+.add_btn {
+  width: 282px;
+  height: 38px;
+  background: #ecf3f3;
+  border-radius: 7px;
+  border: none;
+  font-size: 150%;
+  color: #329c89;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+  min-height: 139px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 0px 28px rgba(72, 174, 174, 0.07);
+  border-radius: 7px;
+  font-family: "Poppins";
+}
+
+.input_form {
+  text-align: left;
+}
+
+.input_title {
+  font-weight: 500;
+  padding: 4px;
+  margin: 1rem 0;
+  width: 165px;
+  height: 18px;
+  font-size: 16px;
+  line-height: 137.1%;
+  color: #a4abb3;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.input_desc {
+  font-family: "Poppins";
+  color: #a4abb3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 137.1%;
+  width: 240px;
+  border: none;
+  margin-left: 10px;
+  outline: none;
+  height: 46.64px;
+}
+
+/*********** LOGIN STYLES  ***********/
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 400px;
+  background: #ffffff;
+  border: 2px solid rgba(26, 59, 88, 0.24);
+  border-radius: 65px;
+}
+
+.login-form input {
+  margin-top: 2rem;
+  width: 314px;
+  height: 45px;
+  background: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 103.38%;
+  color: #b7c0c9;
+  padding-left: 10px;
+  border: 1px solid #cbdbea;
+  border-radius: 8px;
+}
+
+.login-img {
+  width: 477px;
+  height: 420px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  color: rgba(26, 59, 88, 0.61);
+}
+
+.checkbox input {
+  height: 10px;
+  width: 10px;
+  accent-color: #329c89;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-header {
+  width: 100%;
+  display: flex;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.login-header button {
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 101.1%;
+  color: #1a3b58;
+  display: flex;
+  border: none;
+}
+
+.login-header button:active {
+  color: yellow;
+}
+
+.form-container {
+  border-top: 1px solid #4091df1f;
+}
+
+/*********** LOGIN FORM STYLES  ***********/
+
+.form {
+  width: 320px;
+  text-align: center;
+}
+
+.error {
+  outline: red;
+}
+
+.errorp {
+  color: red;
+  font-size: 15px;
+}
+
+.form button {
+  width: 314px;
+  height: 45px;
+  background: #329c89;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 103.38%;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+/*********** WINDOW STYLES  ***********/
+
+.Modal {
+  position: absolute;
+  border: none;
+  width: 524px;
+  min-height: 433px;
+  left: 400px;
+  top: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 28px rgba(72, 174, 174, 0.07);
+  border-radius: 22px;
+  padding: 16px;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header button {
+  background: transparent;
+  font-size: 1.2rem;
+  border: none;
+  color: rgba(0, 0, 0, 0.29);
+}
+
+.modal-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.modal-item img {
+  width: 45px;
+  height: 45px;
+}
+
+.user-name {
+  font-size: 1rem;
+  color: black;
+}
+
+.modal-item div {
+  margin-left: 15px;
+}
+
+.user-email {
+  font-size: 14px;
+}
+
+/*********** MISC STYLES  ***********/
+
+li {
+  list-style-type: none;
+  list-style-position: unset;
+}
+
+ul {
+  list-style-type: none;
+}
